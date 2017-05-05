@@ -47,7 +47,7 @@ source.js:4
 The code in this repo, on a mac:
 
 ```
-(weddingspot) John-Haugeland:JohnIsWrongAboutFlow_TestCase johnhaugeland$ flow
+John-Haugeland:JohnIsWrongAboutFlow_TestCase johnhaugeland$ flow
 source.js:9
   9: ex("Harts");
         ^^^^^^^ string. This type is incompatible with the expected param type of
@@ -88,6 +88,10 @@ ex("Harts");
 
 [options]
 ```
+
+And, I mean.  It seems like that should work identically on all supported platforms, 
+
+... so ...
 
 ![](http://i3.kym-cdn.com/photos/images/facebook/000/173/575/25810.jpg)
 
