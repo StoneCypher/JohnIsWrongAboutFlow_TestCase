@@ -19,6 +19,8 @@ test case is wrong, whether I found a bug, or what.
 
 Pro tip: it's always because the noob's code is wrong.  ***Always***.  (And yet he proceeds.)
 
+### wrong
+
 The code in this repo, on a Windows MinGW64 console, like you get from `git bash`:
 
 ```
@@ -29,6 +31,8 @@ source.js:4
                                ^^^^^^^^^ ./types. Required module not found
 ```
 
+### wrong
+
 The code in this repo, from a Windows cmd prompt:
 
 ```
@@ -38,7 +42,18 @@ source.js:4
                                ^^^^^^^^^ ./types. Required module not found
 ```
 
+### ... right?
+
 The code in this repo, on a mac:
+
+```
+(weddingspot) John-Haugeland:JohnIsWrongAboutFlow_TestCase johnhaugeland$ flow
+source.js:9
+  9: ex("Harts");
+        ^^^^^^^ string. This type is incompatible with the expected param type of
+  6: function ex(blah: Suit) { console.log('suits'); }
+                       ^^^^ string enum
+```
 
 ## Honesty
 I got help with this test case, which is why it doesn't look like the rest of my code, but that person is being modest and 
