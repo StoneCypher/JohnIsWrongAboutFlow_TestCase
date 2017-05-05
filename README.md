@@ -55,6 +55,42 @@ source.js:9
                        ^^^^ string enum
 ```
 
+## wat
+And, I mean, it's a trivially simple test case, same-dir, empty standard `.flowconfig`
+
+180% confuse and le rising
+
+### types.js
+```javascript
+// @flow
+export type Suit = "Diamonds" | "Clubs" | "Hearts" | "Spades";
+```
+
+### source.js
+```javascript
+// @flow
+
+import type { Suit } from './types';
+
+function ex(arg: Suit) { console.log(`suits ${arg}`); }
+
+ex("Hearts");
+ex("Harts");
+```
+
+### .flowconfig
+```
+[ignore]
+
+[include]
+
+[libs]
+
+[options]
+```
+
+![](http://i3.kym-cdn.com/photos/images/facebook/000/173/575/25810.jpg)
+
 ## Honesty
 I got help with this test case, which is why it doesn't look like the rest of my code, but that person is being modest and 
 doesn't want credit.  Thank you, (you know who you are.)  It's difficult to produce reductions this small.
