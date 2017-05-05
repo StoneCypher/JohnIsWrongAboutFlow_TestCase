@@ -24,7 +24,7 @@ Pro tip: it's always because the noob's code is wrong.  ***Always***.  (And yet 
 The code in this repo, on a Windows MinGW64 console, like you get from `git bash`:
 
 ```
-User@DESKTOP-G1V87VU MINGW64 ~/Local Settings/lxss/home/john/projects/JohnIsWrongAboutFlow_TestCase (master)
+User@DESKTOP MINGW64 ~/Local Settings/lxss/home/john/projects/JohnIsWrongAboutFlow_TestCase (master)
 $ flow --color=never
 source.js:4
   4: import type { Suit } from './types';
@@ -89,11 +89,11 @@ ex("Harts");
 [options]
 ```
 
+![](http://i2.kym-cdn.com/photos/images/original/000/275/025/866.jpg)
+
 And, I mean.  It seems like that should work identically on all supported platforms, 
 
 ... so ...
-
-![](http://i3.kym-cdn.com/photos/images/facebook/000/173/575/25810.jpg)
 
 ## Honesty
 I got help with this test case, which is why it doesn't look like the rest of my code, but that person is being modest and 
